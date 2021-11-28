@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  apiweb:
+    build:
+      context: .
+    ports:
+    - "12333:12333"
+    container_name: apiweb
+    network_mode: "default"
+    restart: 'always'
