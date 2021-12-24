@@ -59,7 +59,7 @@ def writer(bot):
     print(' [*] Waiting for messages. To exit press CTRL+C')
     
     async def write(message):
-        channel = bot.get_channel(924004215179853874)
+        channel = bot.get_channel(908505071887732768)
         await channel.send(message)
         
     def callback(ch, method, properties, body):
